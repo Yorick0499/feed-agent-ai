@@ -113,7 +113,7 @@ async def run_once():
                 inline=True,
             )
 
-            embed.set_footer(text="RSS Sniffer • Analiza AI")
+            embed.set_footer(text="RSS Agent AI")
 
             await channel.send(embed=embed)
 
