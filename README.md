@@ -15,7 +15,7 @@ enriched notifications to Discord.
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/NVIDIA-Nemotron-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
-[![GitHub Actions](https://github.com/Yorick0499/feed-agent-ai/actions/workflows/rss-bot.yml/badge.svg)](https://github.com/Yorick0499/feed-agent-ai/actions/workflows/rss-bot.yml)
+[![GitHub Actions](https://github.com/Yorick0499/feed-agent-ai/actions/workflows/rss-agent.yml/badge.svg)](https://github.com/Yorick0499/feed-agent-ai/actions/workflows/rss-agent.yml)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-blue)
 ![License](https://img.shields.io/badge/License-Not%20Specified-lightgrey)
 
@@ -141,7 +141,7 @@ The model does not independently fact-check the source.
 feed-agent-ai/
 ├── .github/
 │   └── workflows/
-│       └── rss-bot.yml
+│       └── rss-agent.yml
 ├── analyzer.py
 ├── bot.py
 ├── database.py
@@ -158,7 +158,7 @@ feed-agent-ai/
 | `analyzer.py` | Sends article data to NVIDIA Nemotron and validates its response |
 | `database.py` | Handles Supabase operations and article processing state |
 | `requirements.txt` | Defines Python dependencies |
-| `.github/workflows/rss-bot.yml` | Configures automated execution |
+| `.github/workflows/rss-agent.yml` | Configures automated execution |
 
 ## Getting Started
 
@@ -297,7 +297,7 @@ RSS Agent AI uses GitHub Actions to run the application periodically.
 
 The workflow is defined in:
 
-`.github/workflows/rss-bot.yml`
+`.github/workflows/rss-agent.yml`
 
 The current schedule is:
 
